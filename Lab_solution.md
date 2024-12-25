@@ -21,7 +21,7 @@ echo "Количество строк: $lines"
 chars=$(wc -m < "$FILE")
 echo "Количество символов: $chars"
 
-questions=$(grep -oE "[A-Za-z].*?\?" "$FILE" | wc -l)
+questions=$(grep -oE "\b.*?\?" "$FILE" | wc -l)
 echo "Количество вопросительных предложений: $questions"
 
 commas=$(grep -o "," "$FILE" | wc -l)
