@@ -31,5 +31,7 @@
 ## Источники
 
 [Документация wc](https://www.ibm.com/docs/zh/aix/7.1?topic=w-wc-command)
+
 [Документация grep](https://www.gnu.org/software/grep/manual/grep.html)
+
 [Источник где можно найти все](https://google.com)
